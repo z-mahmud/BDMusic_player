@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.r.zam.tablayout.PersonFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/group_layout"
+            android:text="Person Fragment"
+            android:textStyle="bold"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="37dp"
+            android:fontFamily="monospace"
+            android:textSize="36sp"
+            android:typeface="monospace" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/person"
+            android:id="@+id/imageView"
+            android:layout_centerVertical="true"
+            android:layout_alignEnd="@+id/group_layout" />
+
+    </RelativeLayout>
+
+</FrameLayout>
